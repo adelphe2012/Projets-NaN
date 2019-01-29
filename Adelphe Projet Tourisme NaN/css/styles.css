@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merienda",cursive;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear:both;
+}
+
+section .c1 {
+    width: 100%;
+    height: 500px;
+}
+
+header .container .logo .ti, footer .ti{
+    color: orange;
+    margin: 10px;
+}
+
+/* HEADER  */
+
+header{
+    width: 100%;
+    height:800px; 
+    background: url('../img/water.jpg') no-repeat top center;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+header .over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+header .container .logo{
+    font-size: 1.7rem;
+    float:left;
+    color: white;
+    margin-top: 30px;
+    text-shadow: 2px 1px black;
+}
+
+
+header .container nav {
+    float: right;
+    margin-top: 45px;
+}
+
+header .container nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+header .container nav li a{
+    font-size:1.2rem;
+    color: white;
+    text-shadow: 2px 1px black;
+    padding: 10px;
+}
+
+header .container nav li a:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: gray;
+    border-radius: 10px;
+    -webkit-transition: background-color 2.5s;
+    -moz-transition: background-color 2.5s;
+    -o-transition: background-color 2.5s ;
+    transition: background-color 2.5s;
+}
+
+header .container .bienvenue{
+    text-align: center; 
+    margin-top: 180px;
+}
+header .container .bienvenue h1 {
+    color: white;
+    text-shadow: 2px 1px black;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header .container .bienvenue p {
+    color: #fafafa;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+header .container .bienvenue a {
+    background-color: rgba(255,255,255,0.5);
+    padding: 13px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+header .container .bienvenue a:hover {
+    background-color: rgba(255,255,255,0);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 2px 1px black;
+    text-shadow: 2px 1px black;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s ;
+    transition: background-color 1s;
+}
+
+/* SECTION */
+section.sc1{
+    padding-top: 50px;
+    margin-top: -100px;
+     background: url("../img/pel.jpg");
+}
+
+section.sc1 img{
+    width: 460px;
+    height: 430px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+section.sc1 h1{
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+
+section.sc1 .img1{
+    float: left;
+    margin-right:50px;
+    border-right: 1px solid white;
+    display: inline-block;
+}
+section.sc1 .img2{
+    float: right;
+    margin-left:50px;
+    border-left:1px solid white;
+    display: inline-block;
+}
+section.sc1 .img3{
+    float: left;
+    margin-right: 50px;
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+section.sc1 .sect{
+    text-align: center;
+    padding-top: 80px;
+    text-shadow: 1px 1px gray;
+}
+
+section.sc1 .mil{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 150%;
+    padding-bottom: 133px;
+}
+
+section.sc1 .mil .h1s{
+    border-bottom: 1px solid white;
+}
+
+section.sc1 p{
+    font-size:27px; 
+}
+
+/* SECTION 2 */
+
+section.sc2{
+    width: 100%
+    height:700px;
+    text-align: center;
+    background: url('../img/eiffel.jpg') no-repeat bottom;
+}
+
+section.sc2 .bgc{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+section.sc2 h1 {
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+section.sc2 div img{
+    width: 225px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+section.sc2 .bgc .container div.ser {
+    padding-bottom: 30px;
+}
+
+section.sc2 div img:hover{
+    border-radius: 5px;
+    transition: border-radius 2s;
+}
+
+/* SECTION 3  */
+
+section.sc3{
+    width: 100%
+    height:700px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.sc3 .conta h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 40px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+section.sc3 .conta p{margin-bottom: 30px;}
+section.sc3 form{margin:40px;}
+section.sc3 form input{padding: 10px;}
+section.sc3 form button{
+    padding: 12px;
+    background: #12A1FF;
+    border-radius: 10px;
+}
+
+/*  FOOTER */
+
+footer{
+    width: 100%
+    height:200px;
+    background-color: black;
+    opacity: 0.78;
+    color: white;
+    padding: 30px;
+}
+
+footer .container h1{
+    font-size: 1.7rem;
+    text-shadow: 2px 1px black;
+}
+
+footer .container .foot{
+    margin-top: -20px;
+    float: right;
+    text-shadow: 2px 1px black;
+}
