@@ -1,47 +1,60 @@
+/* Plus Petits ecrans */
+
+@media screen and (max-width: 768px)
+
+{
+
+    section.sc1 img{
+        width: 235px !important;
+        height: 200px !important;
+        margin: 5px !important;
+    }
+
+    section.sc1 .img1{
+        padding-top: 30px !important;
+        border-right: none !important;
+    }
+    section.sc1 .img2{
+        border-left:none !important;
+    }
+    section.sc1 .img3{
+        padding-top: 30px !important;
+        border-right: none !important;
+    }
+
+}
+
+/* General */
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Merienda",cursive;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-}
-
-.container{
-    width: 85%;
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
-li {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-.clear{
-    clear:both;
-}
-
-section .c1 {
-    width: 100%;
-    height: 500px;
-}
-
-header .container .logo .ti, footer .ti{
+.ti{
     color: orange;
     margin: 10px;
 }
 
-/* HEADER  */
+/*  Header nav   */
 
-header{
+header nav .container a {
+    color: white;
+}
+
+header nav .container #mynav ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav .container #mynav ul li a:hover{
+    color: orange;
+}
+
+#accueil{
     width: 100%;
-    height:1010px; 
+    height:auto; 
     background: url('../img/water.jpg') no-repeat top center;
     -moz-background-size:cover;
     -webkit-background-size:cover;
@@ -49,55 +62,17 @@ header{
     background-size:cover;
 }
 
-header .over{
+#accueil .cont{
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
-}
-header .container .logo{
-    font-size: 1.7rem;
-    float:left;
-    color: white;
-    margin-top: 30px;
-    text-shadow: 2px 1px black;
+    padding: 250px 0px;
+    background-color: rgba(0,0,0,0.7);
 }
 
-
-header .container nav {
-    float: right;
-    margin-top: 45px;
-}
-
-header .container nav li {
-    display: inline-block;
-    margin-right: 15px;
-}
-header .container nav li a{
-    font-size:1.2rem;
-    color: white;
-    text-shadow: 2px 1px black;
-    padding: 10px;
-}
-
-header .container nav li a:hover{
-    background-color: rgba(255,255,255,0.5);
-    color: gray;
-    border-radius: 10px;
-    -webkit-transition: background-color 2.5s;
-    -moz-transition: background-color 2.5s;
-    -o-transition: background-color 2.5s ;
-    transition: background-color 2.5s;
-}
-
-header .container .bienvenue{
-    text-align: center; 
-    margin-top: 180px;
-}
 header .container .bienvenue h1 {
     color: white;
     text-shadow: 2px 1px black;
     padding: 15px;
-    font-size: 50px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -130,9 +105,7 @@ header .container .bienvenue a:hover {
 
 /* SECTION */
 section.sc1{
-    padding-top: 50px;
-    margin-top: -100px;
-     background: url("../img/pel.jpg");
+    background: url("../img/round.png");
 }
 
 section.sc1 img{
@@ -147,7 +120,7 @@ section.sc1 h1{
     font-size: 2rem;
     font-weight: normal;
     padding: 40px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid gray;
     margin-bottom: 30px;
     display: inline-block;
 }
@@ -156,7 +129,7 @@ section.sc1 h1{
 section.sc1 .img1{
     float: left;
     margin-right:50px;
-    border-right: 1px solid white;
+    border-right: 1px solid gray;
     display: inline-block;
 }
 section.sc1 .img2{
@@ -168,7 +141,7 @@ section.sc1 .img2{
 section.sc1 .img3{
     float: left;
     margin-right: 50px;
-    border-right: 1px solid white;
+    border-right: 1px solid gray;
     display: inline-block;
 }
 
@@ -180,10 +153,10 @@ section.sc1 .sect{
 
 section.sc1 .mil{
     color: white;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     width: 100%;
     height: 150%;
-    padding-bottom: 180px;
+    padding-bottom: 45px;
 }
 
 section.sc1 .mil .h1s{
@@ -198,7 +171,7 @@ section.sc1 p{
 
 section.sc2{
     width: 100%
-    height:700px;
+    height:auto;
     text-align: center;
     background: url('../img/eiffel.jpg') no-repeat bottom;
 }
@@ -206,7 +179,9 @@ section.sc2{
 section.sc2 .bgc{
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 30px;
+     padding-top: 20px;
+    background-color: rgba(0,0,0,0.6);
 }
 
 section.sc2 h1 {
@@ -241,9 +216,9 @@ section.sc2 div img:hover{
 
 section.sc3{
     width: 100%
-    height:700px;
-    margin-top: 50px;
-    text-align: center;
+    height:auto;
+    padding-top: 50px;
+    background: url("../img/round.png");
 }
 
 section.sc3 .conta h1 {
@@ -251,37 +226,16 @@ section.sc3 .conta h1 {
     font-weight: normal;
     padding: 40px;
     border-bottom: 1px solid gray;
-    margin-bottom: 30px;
     display: inline-block;
+    margin-bottom: 30px;
 }
 
 section.sc3 .conta p{margin-bottom: 30px;}
-section.sc3 form{margin:40px;}
-section.sc3 form input{padding: 10px;}
-section.sc3 form button{
-    padding: 12px;
-    background: #12A1FF;
-    border-radius: 10px;
-}
+section.sc3 .conta form{margin-bottom: 20px;}
+
 
 /*  FOOTER */
 
 footer{
-    width: 100%
-    height:200px;
-    background-color: black;
-    opacity: 0.78;
-    color: white;
-    padding: 30px;
-}
-
-footer .container h1{
-    font-size: 1.7rem;
-    text-shadow: 2px 1px black;
-}
-
-footer .container .foot{
-    margin-top: -20px;
-    float: right;
-    text-shadow: 2px 1px black;
+    padding: 25px;
 }
